@@ -180,7 +180,7 @@ img {
   border-radius: 2px;
 }
 
-.header-adress-list {
+.header-adress__list {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -304,7 +304,7 @@ img {
   border-radius: 4px;
 }
 
-.modal-button {
+.modal__button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -323,14 +323,14 @@ img {
   transition-timing-function: var(--timing-function);
 }
 
-.modal-button:hover,
-.modal-button:focus {
+.modal__button:hover,
+.modal__button:focus {
   fill: var(--accent-color);
 }
 
 /* Register form */
 
-.register-form-title {
+.register-form__title {
   display: block;
   text-align: center;
   font-weight: 700;
@@ -339,19 +339,19 @@ img {
   margin-bottom: 12px;
 }
 
-.register-form-group {
+.register-form__group {
   width: 448px;
   height: 342px;
   margin-bottom: 20px;
 }
 
-.register-form-field {
+.register-form__field {
   position: relative;
   display: block;
   margin-bottom: 10px;
 }
 
-.register-form-label {
+.register-form__label {
   display: block;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -360,7 +360,7 @@ img {
   color: var(--secondary-text-color);
 }
 
-.register-form-input {
+.register-form__input {
   width: 100%;
   height: 40px;
   padding-left: 42px;
@@ -373,15 +373,15 @@ img {
   transition-timing-function: var(--timing-function);
 }
 
-.register-form-input:focus {
+.register-form__input:focus {
   border-color: var(--accent-color);
 }
 
-.register-form-input:hover {
+.register-form__input:hover {
   cursor: pointer;
 }
 
-.register-form-icon {
+.register-form__icon {
   position: absolute;
   bottom: 11px;
   left: 12px;
@@ -390,11 +390,11 @@ img {
   transition-timing-function: var(--timing-function);
 }
 
-.register-form-input:focus + .register-form-icon {
+.register-form__input:focus + .register-form__icon {
   fill: var(--accent-color);
 }
 
-.register-form-message {
+.register-form__message {
   display: block;
   resize: none;
   outline: transparent;
@@ -410,22 +410,22 @@ img {
   transition-timing-function: var(--timing-function);
 }
 
-.register-form-message:focus {
+.register-form__message:focus {
   border-color: var(--accent-color);
 }
 
-.register-form-message:hover {
+.register-form__message:hover {
   cursor: pointer;
 }
 
-.register-form-message::placeholder {
+.register-form__message::placeholder {
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.register-form-agreement {
+.register-form__agreement {
   display: flex;
   gap: 9px;
   align-items: center;
@@ -433,34 +433,34 @@ img {
   margin-bottom: 30px;
 }
 
-.icon-checked {
+.register-form__icon-checked {
   opacity: 0;
 }
 
-.register-form-checkbox:checked + .register-form-icons .icon-checked {
+.register-form__checkbox:checked + .register-form__icons .register-form__icon-checked {
   opacity: 1;
 }
 
-.icon-unchecked {
+.register-form__icon-unchecked {
   opacity: 1;
 }
 
-.register-form-checkbox:checked + .register-form-icons .icon-unchecked {
+.register-form__checkbox:checked + .register-form__icons .register-form__icon-unchecked {
   opacity: 0;
 }
 
-.register-form-text {
+.register-form__text {
   user-select: none;
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--secondary-text-color);
 }
 
-.register-form-link {
+.register-form__link {
   color: var(--accent-color);
 }
 
-.register-form-button {
+.register-form__button {
   display: block;
   margin: 0 auto;
   width: 200px;

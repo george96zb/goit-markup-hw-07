@@ -42,7 +42,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-adress-list list">
+        <ul class="header-adress__list list">
           <li class="header-adress__item">
             <a class="header-adress__link link" href="mailto:info@devstudio.com">
               <svg
@@ -75,79 +75,85 @@
         <!-- Modal window -->
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button class="modal-button" type="button" data-modal-close>
+            <button class="modal__button" type="button" data-modal-close>
               <svg width="18" height="18">
                 <use href="./images/icons.svg#modal-icon"></use>
               </svg>
             </button>
-            <form class="register-form" name="register-form">
-              <strong class="register-form-title">Залиште свої дані, ми вам передзвонимо</strong>
-              <div class="register-form-group" role="group">
-                <label class="register-form-field">
-                  <span class="register-form-label">Ім'я</span>
+            <form class="register__form" name="register-form">
+              <strong class="register-form__title">Залиште свої дані, ми вам передзвонимо</strong>
+              <div class="register-form__group" role="group">
+                <label class="register-form__field">
+                  <span class="register-form__label">Ім'я</span>
                   <input
-                    class="register-form-input"
+                    class="register-form__input"
                     type="text"
                     name="user-name"
                     required
                     minlength="3"
                   />
-                  <svg class="register-form-icon" width="18" height="18">
+                  <svg class="register-form__icon" width="18" height="18">
                     <use href="./images/icons.svg#icon-name"></use>
                   </svg>
                 </label>
-                <label class="register-form-field">
-                  <span class="register-form-label">Телефон</span>
+                <label class="register-form__field">
+                  <span class="register-form__label">Телефон</span>
                   <input
-                    class="register-form-input"
+                    class="register-form__input"
                     type="tel"
                     name="user-phone"
                     required
                     minlength="10"
                   />
-                  <svg class="register-form-icon" width="18" height="18">
+                  <svg class="register-form__icon" width="18" height="18">
                     <use href="./images/icons.svg#icon-phone"></use>
                   </svg>
                 </label>
-                <label class="register-form-field">
-                  <span class="register-form-label">Пошта</span>
+                <label class="register-form__field">
+                  <span class="register-form__label">Пошта</span>
                   <input
-                    class="register-form-input"
+                    class="register-form__input"
                     type="email"
                     name="user-mail"
                     minlength="3"
                     required
                   />
-                  <svg class="register-form-icon" width="18" height="18">
+                  <svg class="register-form__icon" width="18" height="18">
                     <use href="./images/icons.svg#icon-email"></use>
                   </svg>
                 </label>
-                <label class="register-form-field">
-                  <span class="register-form-label">Коментар</span>
+                <label class="register-form__field">
+                  <span class="register-form__label">Коментар</span>
                   <textarea
-                    class="register-form-message"
+                    class="register-form__message"
                     name="user-message"
                     rows="5"
                     placeholder="Введіть текст"
                   ></textarea>
                 </label>
               </div>
-              <label class="register-form-agreement">
+              <label class="register-form__agreement">
                 <input
-                  class="register-form-checkbox visually-hidden"
+                  class="register-form__checkbox visually-hidden"
                   type="checkbox"
                   name="user-agreement"
                 />
-                <svg class="register-form-icons" width="16" height="15">
-                  <use class="icon-checked" href="./images/icons.svg#icon-checked"></use>
-                  <use class="icon-unchecked" href="./images/icons.svg#icon-unchecked"></use>
+                <svg class="register-form__icons" width="16" height="15">
+                  <use
+                    class="register-form__icon-checked"
+                    href="./images/icons.svg#icon-checked"
+                  ></use>
+                  <use
+                    class="register-form__icon-unchecked"
+                    href="./images/icons.svg#icon-unchecked"
+                  ></use>
                 </svg>
-                <span class="register-form-text"
+                <span class="register-form__text"
                   >Погоджуюся з розсилкою та приймаю
-                  <a class="register-form-link" href="">Умови договору</a></span
+                  <a class="register-form__link" href="">Умови договору</a></span
                 >
               </label>
-              <button class="register-form-button" type="submit">Відправити</button>
+              <button class="register-form__button" type="submit">Відправити</button>
             </form>
           </div>
         </div>
