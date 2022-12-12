@@ -1,39 +1,47 @@
-:root {
-  /* Fonts */
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+/* :root { */
+/* Fonts */
+/* --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif; */
 
-  /* Text colors */
-  --main-text-color: #212121;
+/* Text colors */
+/* --main-text-color: #212121;
   --secondary-text-color: #757575;
   --white-text-color: #ffffff;
-  --black-text-color: #000000;
+  --black-text-color: #000000; */
 
-  /* Background colors */
-  --main-background-color: #2f303a;
+/* Background colors */
+/* --main-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
-  --additional-background-color: #f5f5f5;
+  --additional-background-color: #f5f5f5; */
 
-  /* Other colors */
-  --accent-color: #2196f3;
+/* Other colors */
+/* --accent-color: #2196f3;
   --active-btn-color: #188ce8;
   --contact-links-color: rgba(255, 255, 255, 0.6);
   --light-color1: #ececec;
-  --light-color2: #eeeeee;
+  --light-color2: #eeeeee; */
 
-  /* Animation properties */
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* Animation properties */
+/* --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
-body {
+/* body {
   font-family: var(--main-font);
   color: var(--main-text-color);
-  letter-spacing: 0.03em;
-}
+  letter-spacing: 0.03em; */
+/* } */
+
+/* Styles for images */
+
+/* img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
 
 /* Reset */
 
-.html {
+/* .html {
   box-sizing: border-box;
 }
 
@@ -41,10 +49,10 @@ body {
 *::after,
 *::before {
   box-sizing: inherit;
-}
+} */
 
 /* Margin reset*/
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -52,10 +60,10 @@ h5,
 h6,
 p {
   margin: 0;
-}
+} */
 
 /* Decoration reset */
-.link {
+/* .link {
   text-decoration: none;
 }
 
@@ -65,29 +73,21 @@ p {
   margin: 0;
 }
 
-/* Styles for images */
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 
-  /* outline: 2px solid red;
+/* outline: 2px solid red;
   outline-offset: -2px; */
-}
+/* } */
 
 /* Hidden titles */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -98,14 +98,14 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /**
   |============================
   | Project header
   |============================
 */
-
+/* 
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -209,14 +209,14 @@ img {
 
 .header-adress__icon {
   fill: currentColor;
-}
+} */
 
 /**
   |============================
   | Section hero
   |============================
 */
-
+/* 
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -265,10 +265,10 @@ img {
 
 .hero__button:active {
   background-color: var(--active-btn-color);
-}
+} */
 
 /* Modal window */
-
+/* 
 .backdrop {
   position: fixed;
   top: 0;
@@ -326,10 +326,10 @@ img {
 .modal__button:hover,
 .modal__button:focus {
   fill: var(--accent-color);
-}
+} */
 
 /* Register form */
-
+/* 
 .register-form__title {
   display: block;
   text-align: center;
@@ -476,13 +476,14 @@ img {
   border: 0;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /**
   |============================
   | Section about business priorities
   |============================
 */
+/* 
 .about {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -519,16 +520,17 @@ img {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--secondary-text-color);
-}
+} */
 
 /**
   |============================
   | Section about activities
   |============================
 */
-.activity {
+/* .activity {
   padding-bottom: 94px;
 }
+
 .activity__title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -560,13 +562,14 @@ img {
   text-transform: uppercase;
   font-size: 14px;
   line-height: calc(16 / 14);
-}
+} */
 
 /**
   |============================
   | Section about working staff and their roles
   |============================
 */
+/* 
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -612,11 +615,11 @@ img {
   line-height: calc(19 / 16);
   text-align: center;
   color: var(--secondary-text-color);
-}
+} */
 
 /* Socials */
 
-.socials {
+/* .socials {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -643,7 +646,7 @@ img {
 
 .socials__icon {
   fill: currentColor;
-}
+} */
 
 /**
   |============================
@@ -651,7 +654,7 @@ img {
   |============================
 */
 
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -706,15 +709,17 @@ img {
 
 .clients__icon {
   fill: currentColor;
-}
+} */
 
 /**
   |============================
   | Portfolio section
   |============================
 */
+
 /* Buttons */
-.portfolio {
+
+/* .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -831,13 +836,15 @@ img {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--secondary-text-color);
-}
+} */
+
 /**
   |============================
   | Project footer
   |============================
 */
-.footer {
+
+/* .footer {
   background-color: var(--main-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -896,11 +903,11 @@ img {
 .footer__contact-link:hover,
 .footer__contact-link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Footer socials */
 
-.footer__icons-container {
+/* .footer__icons-container {
   margin-right: 93px;
 }
 .footer__subtitle {
@@ -937,11 +944,11 @@ img {
 .footer__socials-link:hover,
 .footer__socials-link:focus {
   background-color: var(--accent-color);
-}
+} */
 
 /* Footer form */
 
-.footer-form__email {
+/* .footer-form__email {
   display: inline-block;
   font-weight: 700;
   font-size: 14px;
@@ -993,4 +1000,4 @@ img {
   justify-content: center;
   cursor: pointer;
   gap: 10px;
-}
+} */
